@@ -17,30 +17,24 @@ read -p "╰──────>Pilih NO : " rus
 clear
 if [ $rus = 1 ] || [ $rus = 01 ];then
 git clone https://github.com/Senitopeng/Boom-CallMail.git
-cp -irf Boom-CallMail $HOME
 fi
 if [ $rus = 2 ] || [ $rus = 02 ];then
 clear 
 git clone https://github.com/Senitopeng/SpammerJT.git
-cp -irf SpammerJT $HOME
 fi
 if [ $rus = 3 ] || [ $rus = 03 ];then
 clear 
 git clone https://github.com/sandrayoan11/PrankBukalapak.git
-cp -irf PrankBukalapak $HOME
 fi
 if [ $rus = 4 ] || [ $rus = 04 ];then
 clear
 git clone https://github.com/siputra12/prank
-cp -irf prank $HOME
 fi
 if [ $rus = 5 ] || [ $rus = 05 ];then
 git clone https://github.com/Amriez/ANRspam
-cp -irf ANRspam $HOME
 fi
 if [ $rus = 6 ] || [ $rus = 06 ];then
 git clone https://github.com/4L13199/LITESPAM
-cp -irf LITESCRIPT
 fi
 if [ $rus = 8 ] || [ $rus = 08 ];then
 clear
@@ -50,7 +44,6 @@ pkg install openssl curl
 pip2 install urllib3 chardet certifi idna 
 requests
 mkdir webdav
-cp -irf webdav $HOME
 cd webdav
 wget https://pastebin.com/raw/HnVyQPtR
 mv HnVyQPtR webdav.py
@@ -59,7 +52,6 @@ fi
 if [ $rus  =  7 ] || [ $rus = 07 ];then
 pkg install python2
 git clone https://github.com/4L13199/LITESCRIPT
-cp -irf LITESCRIPT $HOME
 cd LITESCRIPT
 python2 LITESCRIPT.py
 fi
