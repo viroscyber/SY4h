@@ -8,5 +8,5 @@ semoga bermanfaat
 
 cara menggunakan pindah.sh dan kegunaannya?
 cara menggunakannya adalah sh pindah.sh klik enter
-kegunaan pindah.sh adalah untuk memindah script deface yg telah dibuat dari folder LITESCRIPT dipindah ke webdav 
+kegunaan pindah.sh adalah untuk memindah script deface yg telah dibuat dari folder LITESCRIPT dipindah ke webdav secara otomatis
 jika ingin memindah script deface hasil buatan dari folder LITESCRIPT tinggal ketik 01 lalu klik enter
